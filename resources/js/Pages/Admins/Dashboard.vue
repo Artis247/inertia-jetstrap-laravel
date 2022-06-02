@@ -10,14 +10,16 @@
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="info-box">
-                            <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
+                            <span class="info-box-icon bg-info elevation-1"
+                                ><i class="fas fa-cog"></i
+                            ></span>
 
                             <div class="info-box-content">
                                 <span class="info-box-text">CPU Traffic</span>
                                 <span class="info-box-number">
-                  10
-                  <small>%</small>
-                </span>
+                                    10
+                                    <small>%</small>
+                                </span>
                             </div>
                             <!-- /.info-box-content -->
                         </div>
@@ -26,7 +28,9 @@
                     <!-- /.col -->
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="info-box mb-3">
-                            <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
+                            <span class="info-box-icon bg-danger elevation-1"
+                                ><i class="fas fa-thumbs-up"></i
+                            ></span>
 
                             <div class="info-box-content">
                                 <span class="info-box-text">Likes</span>
@@ -43,7 +47,9 @@
 
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="info-box mb-3">
-                            <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
+                            <span class="info-box-icon bg-success elevation-1"
+                                ><i class="fas fa-shopping-cart"></i
+                            ></span>
 
                             <div class="info-box-content">
                                 <span class="info-box-text">Sales</span>
@@ -56,7 +62,9 @@
                     <!-- /.col -->
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="info-box mb-3">
-                            <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
+                            <span class="info-box-icon bg-warning elevation-1"
+                                ><i class="fas fa-users"></i
+                            ></span>
 
                             <div class="info-box-content">
                                 <span class="info-box-text">New Members</span>
@@ -77,22 +85,45 @@
                                 <h5 class="card-title">Monthly Recap Report</h5>
 
                                 <div class="card-tools">
-                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <button
+                                        type="button"
+                                        class="btn btn-tool"
+                                        data-card-widget="collapse"
+                                    >
                                         <i class="fas fa-minus"></i>
                                     </button>
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+                                        <button
+                                            type="button"
+                                            class="btn btn-tool dropdown-toggle"
+                                            data-toggle="dropdown"
+                                        >
                                             <i class="fas fa-wrench"></i>
                                         </button>
-                                        <div class="dropdown-menu dropdown-menu-right" role="menu">
-                                            <a href="#" class="dropdown-item">Action</a>
-                                            <a href="#" class="dropdown-item">Another action</a>
-                                            <a href="#" class="dropdown-item">Something else here</a>
+                                        <div
+                                            class="dropdown-menu dropdown-menu-right"
+                                            role="menu"
+                                        >
+                                            <a href="#" class="dropdown-item"
+                                                >Action</a
+                                            >
+                                            <a href="#" class="dropdown-item"
+                                                >Another action</a
+                                            >
+                                            <a href="#" class="dropdown-item"
+                                                >Something else here</a
+                                            >
                                             <a class="dropdown-divider"></a>
-                                            <a href="#" class="dropdown-item">Separated link</a>
+                                            <a href="#" class="dropdown-item"
+                                                >Separated link</a
+                                            >
                                         </div>
                                     </div>
-                                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <button
+                                        type="button"
+                                        class="btn btn-tool"
+                                        data-card-widget="remove"
+                                    >
                                         <i class="fas fa-times"></i>
                                     </button>
                                 </div>
@@ -102,12 +133,19 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <p class="text-center">
-                                            <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                            <strong
+                                                >Sales: 1 Jan, 2014 - 30 Jul,
+                                                2014</strong
+                                            >
                                         </p>
 
                                         <div class="chart">
                                             <!-- Sales Chart Canvas -->
-                                            <canvas id="salesChart" height="180" style="height: 180px;"></canvas>
+                                            <canvas
+                                                id="salesChart"
+                                                height="180"
+                                                style="height: 180px"
+                                            ></canvas>
                                         </div>
                                         <!-- /.chart-responsive -->
                                     </div>
@@ -119,36 +157,58 @@
 
                                         <div class="progress-group">
                                             Add Products to Cart
-                                            <span class="float-right"><b>160</b>/200</span>
+                                            <span class="float-right"
+                                                ><b>160</b>/200</span
+                                            >
                                             <div class="progress progress-sm">
-                                                <div class="progress-bar bg-primary" style="width: 80%"></div>
+                                                <div
+                                                    class="progress-bar bg-primary"
+                                                    style="width: 80%"
+                                                ></div>
                                             </div>
                                         </div>
                                         <!-- /.progress-group -->
 
                                         <div class="progress-group">
                                             Complete Purchase
-                                            <span class="float-right"><b>310</b>/400</span>
+                                            <span class="float-right"
+                                                ><b>310</b>/400</span
+                                            >
                                             <div class="progress progress-sm">
-                                                <div class="progress-bar bg-danger" style="width: 75%"></div>
+                                                <div
+                                                    class="progress-bar bg-danger"
+                                                    style="width: 75%"
+                                                ></div>
                                             </div>
                                         </div>
 
                                         <!-- /.progress-group -->
                                         <div class="progress-group">
-                                            <span class="progress-text">Visit Premium Page</span>
-                                            <span class="float-right"><b>480</b>/800</span>
+                                            <span class="progress-text"
+                                                >Visit Premium Page</span
+                                            >
+                                            <span class="float-right"
+                                                ><b>480</b>/800</span
+                                            >
                                             <div class="progress progress-sm">
-                                                <div class="progress-bar bg-success" style="width: 60%"></div>
+                                                <div
+                                                    class="progress-bar bg-success"
+                                                    style="width: 60%"
+                                                ></div>
                                             </div>
                                         </div>
 
                                         <!-- /.progress-group -->
                                         <div class="progress-group">
                                             Send Inquiries
-                                            <span class="float-right"><b>250</b>/500</span>
+                                            <span class="float-right"
+                                                ><b>250</b>/500</span
+                                            >
                                             <div class="progress progress-sm">
-                                                <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                                <div
+                                                    class="progress-bar bg-warning"
+                                                    style="width: 50%"
+                                                ></div>
                                             </div>
                                         </div>
                                         <!-- /.progress-group -->
@@ -161,37 +221,79 @@
                             <div class="card-footer">
                                 <div class="row">
                                     <div class="col-sm-3 col-6">
-                                        <div class="description-block border-right">
-                                            <span class="description-percentage text-success"><i class="fas fa-caret-up"></i> 17%</span>
-                                            <h5 class="description-header">$35,210.43</h5>
-                                            <span class="description-text">TOTAL REVENUE</span>
+                                        <div
+                                            class="description-block border-right"
+                                        >
+                                            <span
+                                                class="description-percentage text-success"
+                                                ><i class="fas fa-caret-up"></i>
+                                                17%</span
+                                            >
+                                            <h5 class="description-header">
+                                                $35,210.43
+                                            </h5>
+                                            <span class="description-text"
+                                                >TOTAL REVENUE</span
+                                            >
                                         </div>
                                         <!-- /.description-block -->
                                     </div>
                                     <!-- /.col -->
                                     <div class="col-sm-3 col-6">
-                                        <div class="description-block border-right">
-                                            <span class="description-percentage text-warning"><i class="fas fa-caret-left"></i> 0%</span>
-                                            <h5 class="description-header">$10,390.90</h5>
-                                            <span class="description-text">TOTAL COST</span>
+                                        <div
+                                            class="description-block border-right"
+                                        >
+                                            <span
+                                                class="description-percentage text-warning"
+                                                ><i
+                                                    class="fas fa-caret-left"
+                                                ></i>
+                                                0%</span
+                                            >
+                                            <h5 class="description-header">
+                                                $10,390.90
+                                            </h5>
+                                            <span class="description-text"
+                                                >TOTAL COST</span
+                                            >
                                         </div>
                                         <!-- /.description-block -->
                                     </div>
                                     <!-- /.col -->
                                     <div class="col-sm-3 col-6">
-                                        <div class="description-block border-right">
-                                            <span class="description-percentage text-success"><i class="fas fa-caret-up"></i> 20%</span>
-                                            <h5 class="description-header">$24,813.53</h5>
-                                            <span class="description-text">TOTAL PROFIT</span>
+                                        <div
+                                            class="description-block border-right"
+                                        >
+                                            <span
+                                                class="description-percentage text-success"
+                                                ><i class="fas fa-caret-up"></i>
+                                                20%</span
+                                            >
+                                            <h5 class="description-header">
+                                                $24,813.53
+                                            </h5>
+                                            <span class="description-text"
+                                                >TOTAL PROFIT</span
+                                            >
                                         </div>
                                         <!-- /.description-block -->
                                     </div>
                                     <!-- /.col -->
                                     <div class="col-sm-3 col-6">
                                         <div class="description-block">
-                                            <span class="description-percentage text-danger"><i class="fas fa-caret-down"></i> 18%</span>
-                                            <h5 class="description-header">1200</h5>
-                                            <span class="description-text">GOAL COMPLETIONS</span>
+                                            <span
+                                                class="description-percentage text-danger"
+                                                ><i
+                                                    class="fas fa-caret-down"
+                                                ></i>
+                                                18%</span
+                                            >
+                                            <h5 class="description-header">
+                                                1200
+                                            </h5>
+                                            <span class="description-text"
+                                                >GOAL COMPLETIONS</span
+                                            >
                                         </div>
                                         <!-- /.description-block -->
                                     </div>
@@ -213,19 +315,38 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <!-- DIRECT CHAT -->
-                                <div class="card direct-chat direct-chat-warning">
+                                <div
+                                    class="card direct-chat direct-chat-warning"
+                                >
                                     <div class="card-header">
                                         <h3 class="card-title">Direct Chat</h3>
 
                                         <div class="card-tools">
-                                            <span title="3 New Messages" class="badge badge-warning">3</span>
-                                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                            <span
+                                                title="3 New Messages"
+                                                class="badge badge-warning"
+                                                >3</span
+                                            >
+                                            <button
+                                                type="button"
+                                                class="btn btn-tool"
+                                                data-card-widget="collapse"
+                                            >
                                                 <i class="fas fa-minus"></i>
                                             </button>
-                                            <button type="button" class="btn btn-tool" title="Contacts" data-widget="chat-pane-toggle">
+                                            <button
+                                                type="button"
+                                                class="btn btn-tool"
+                                                title="Contacts"
+                                                data-widget="chat-pane-toggle"
+                                            >
                                                 <i class="fas fa-comments"></i>
                                             </button>
-                                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                            <button
+                                                type="button"
+                                                class="btn btn-tool"
+                                                data-card-widget="remove"
+                                            >
                                                 <i class="fas fa-times"></i>
                                             </button>
                                         </div>
@@ -236,17 +357,29 @@
                                         <div class="direct-chat-messages">
                                             <!-- Message. Default to the left -->
                                             <div class="direct-chat-msg">
-                                                <div class="direct-chat-infos clearfix">
-                                                    <span class="direct-chat-name float-left">Alexander Pierce</span>
-                                                    <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
+                                                <div
+                                                    class="direct-chat-infos clearfix"
+                                                >
+                                                    <span
+                                                        class="direct-chat-name float-left"
+                                                        >Alexander Pierce</span
+                                                    >
+                                                    <span
+                                                        class="direct-chat-timestamp float-right"
+                                                        >23 Jan 2:00 pm</span
+                                                    >
                                                 </div>
                                                 <!-- /.direct-chat-infos -->
-                                                <img class="direct-chat-img" src="../../../../storage/app/public/images/user1-128x128.jpg" alt="message user image">
-
+                                                <img
+                                                    class="direct-chat-img"
+                                                    src="../../../../storage/app/public/images/user1-128x128.jpg"
+                                                    alt="message user image"
+                                                />
 
                                                 <!-- /.direct-chat-img -->
                                                 <div class="direct-chat-text">
-                                                    Is this template really for free? That's unbelievable!
+                                                    Is this template really for
+                                                    free? That's unbelievable!
                                                 </div>
                                                 <!-- /.direct-chat-text -->
                                             </div>
@@ -254,12 +387,24 @@
 
                                             <!-- Message to the right -->
                                             <div class="direct-chat-msg right">
-                                                <div class="direct-chat-infos clearfix">
-                                                    <span class="direct-chat-name float-right">Sarah Bullock</span>
-                                                    <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                                <div
+                                                    class="direct-chat-infos clearfix"
+                                                >
+                                                    <span
+                                                        class="direct-chat-name float-right"
+                                                        >Sarah Bullock</span
+                                                    >
+                                                    <span
+                                                        class="direct-chat-timestamp float-left"
+                                                        >23 Jan 2:05 pm</span
+                                                    >
                                                 </div>
                                                 <!-- /.direct-chat-infos -->
-                                                <img class="direct-chat-img" src="../../../../storage/app/public/images/user3-128x128.jpg" alt="message user image">
+                                                <img
+                                                    class="direct-chat-img"
+                                                    src="../../../../storage/app/public/images/user3-128x128.jpg"
+                                                    alt="message user image"
+                                                />
                                                 <!-- /.direct-chat-img -->
                                                 <div class="direct-chat-text">
                                                     You better believe it!
@@ -270,15 +415,28 @@
 
                                             <!-- Message. Default to the left -->
                                             <div class="direct-chat-msg">
-                                                <div class="direct-chat-infos clearfix">
-                                                    <span class="direct-chat-name float-left">Alexander Pierce</span>
-                                                    <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
+                                                <div
+                                                    class="direct-chat-infos clearfix"
+                                                >
+                                                    <span
+                                                        class="direct-chat-name float-left"
+                                                        >Alexander Pierce</span
+                                                    >
+                                                    <span
+                                                        class="direct-chat-timestamp float-right"
+                                                        >23 Jan 5:37 pm</span
+                                                    >
                                                 </div>
                                                 <!-- /.direct-chat-infos -->
-                                                <img class="direct-chat-img" src="../../../../storage/app/public/images/user1-128x128.jpg" alt="message user image">
+                                                <img
+                                                    class="direct-chat-img"
+                                                    src="../../../../storage/app/public/images/user1-128x128.jpg"
+                                                    alt="message user image"
+                                                />
                                                 <!-- /.direct-chat-img -->
                                                 <div class="direct-chat-text">
-                                                    Working with AdminLTE on a great new app! Wanna join?
+                                                    Working with AdminLTE on a
+                                                    great new app! Wanna join?
                                                 </div>
                                                 <!-- /.direct-chat-text -->
                                             </div>
@@ -286,12 +444,24 @@
 
                                             <!-- Message to the right -->
                                             <div class="direct-chat-msg right">
-                                                <div class="direct-chat-infos clearfix">
-                                                    <span class="direct-chat-name float-right">Sarah Bullock</span>
-                                                    <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
+                                                <div
+                                                    class="direct-chat-infos clearfix"
+                                                >
+                                                    <span
+                                                        class="direct-chat-name float-right"
+                                                        >Sarah Bullock</span
+                                                    >
+                                                    <span
+                                                        class="direct-chat-timestamp float-left"
+                                                        >23 Jan 6:10 pm</span
+                                                    >
                                                 </div>
                                                 <!-- /.direct-chat-infos -->
-                                                <img class="direct-chat-img" src="../../../../storage/app/public/images/user3-128x128.jpg" alt="message user image">
+                                                <img
+                                                    class="direct-chat-img"
+                                                    src="../../../../storage/app/public/images/user3-128x128.jpg"
+                                                    alt="message user image"
+                                                />
                                                 <!-- /.direct-chat-img -->
                                                 <div class="direct-chat-text">
                                                     I would love to.
@@ -299,7 +469,6 @@
                                                 <!-- /.direct-chat-text -->
                                             </div>
                                             <!-- /.direct-chat-msg -->
-
                                         </div>
                                         <!--/.direct-chat-messages-->
 
@@ -308,14 +477,30 @@
                                             <ul class="contacts-list">
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="../../../../storage/app/public/images/user1-128x128.jpg" alt="User Avatar">
+                                                        <img
+                                                            class="contacts-list-img"
+                                                            src="../../../../storage/app/public/images/user1-128x128.jpg"
+                                                            alt="User Avatar"
+                                                        />
 
-                                                        <div class="contacts-list-info">
-                              <span class="contacts-list-name">
-                                Count Dracula
-                                <small class="contacts-list-date float-right">2/28/2015</small>
-                              </span>
-                                                            <span class="contacts-list-msg">How have you been? I was...</span>
+                                                        <div
+                                                            class="contacts-list-info"
+                                                        >
+                                                            <span
+                                                                class="contacts-list-name"
+                                                            >
+                                                                Count Dracula
+                                                                <small
+                                                                    class="contacts-list-date float-right"
+                                                                    >2/28/2015</small
+                                                                >
+                                                            </span>
+                                                            <span
+                                                                class="contacts-list-msg"
+                                                                >How have you
+                                                                been? I
+                                                                was...</span
+                                                            >
                                                         </div>
                                                         <!-- /.contacts-list-info -->
                                                     </a>
@@ -323,14 +508,30 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="../../../../storage/app/public/images/user7-128x128.jpg" alt="User Avatar">
+                                                        <img
+                                                            class="contacts-list-img"
+                                                            src="../../../../storage/app/public/images/user7-128x128.jpg"
+                                                            alt="User Avatar"
+                                                        />
 
-                                                        <div class="contacts-list-info">
-                              <span class="contacts-list-name">
-                                Sarah Doe
-                                <small class="contacts-list-date float-right">2/23/2015</small>
-                              </span>
-                                                            <span class="contacts-list-msg">I will be waiting for...</span>
+                                                        <div
+                                                            class="contacts-list-info"
+                                                        >
+                                                            <span
+                                                                class="contacts-list-name"
+                                                            >
+                                                                Sarah Doe
+                                                                <small
+                                                                    class="contacts-list-date float-right"
+                                                                    >2/23/2015</small
+                                                                >
+                                                            </span>
+                                                            <span
+                                                                class="contacts-list-msg"
+                                                                >I will be
+                                                                waiting
+                                                                for...</span
+                                                            >
                                                         </div>
                                                         <!-- /.contacts-list-info -->
                                                     </a>
@@ -338,14 +539,29 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="../../../../storage/app/public/images/user3-128x128.jpg" alt="User Avatar">
+                                                        <img
+                                                            class="contacts-list-img"
+                                                            src="../../../../storage/app/public/images/user3-128x128.jpg"
+                                                            alt="User Avatar"
+                                                        />
 
-                                                        <div class="contacts-list-info">
-                              <span class="contacts-list-name">
-                                Nadia Jolie
-                                <small class="contacts-list-date float-right">2/20/2015</small>
-                              </span>
-                                                            <span class="contacts-list-msg">I'll call you back at...</span>
+                                                        <div
+                                                            class="contacts-list-info"
+                                                        >
+                                                            <span
+                                                                class="contacts-list-name"
+                                                            >
+                                                                Nadia Jolie
+                                                                <small
+                                                                    class="contacts-list-date float-right"
+                                                                    >2/20/2015</small
+                                                                >
+                                                            </span>
+                                                            <span
+                                                                class="contacts-list-msg"
+                                                                >I'll call you
+                                                                back at...</span
+                                                            >
                                                         </div>
                                                         <!-- /.contacts-list-info -->
                                                     </a>
@@ -353,14 +569,29 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="../../../../storage/app/public/images/user5-128x128.jpg" alt="User Avatar">
+                                                        <img
+                                                            class="contacts-list-img"
+                                                            src="../../../../storage/app/public/images/user5-128x128.jpg"
+                                                            alt="User Avatar"
+                                                        />
 
-                                                        <div class="contacts-list-info">
-                              <span class="contacts-list-name">
-                                Nora S. Vans
-                                <small class="contacts-list-date float-right">2/10/2015</small>
-                              </span>
-                                                            <span class="contacts-list-msg">Where is your new...</span>
+                                                        <div
+                                                            class="contacts-list-info"
+                                                        >
+                                                            <span
+                                                                class="contacts-list-name"
+                                                            >
+                                                                Nora S. Vans
+                                                                <small
+                                                                    class="contacts-list-date float-right"
+                                                                    >2/10/2015</small
+                                                                >
+                                                            </span>
+                                                            <span
+                                                                class="contacts-list-msg"
+                                                                >Where is your
+                                                                new...</span
+                                                            >
                                                         </div>
                                                         <!-- /.contacts-list-info -->
                                                     </a>
@@ -368,14 +599,29 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="../../../../storage/app/public/images/user6-128x128.jpg" alt="User Avatar">
+                                                        <img
+                                                            class="contacts-list-img"
+                                                            src="../../../../storage/app/public/images/user6-128x128.jpg"
+                                                            alt="User Avatar"
+                                                        />
 
-                                                        <div class="contacts-list-info">
-                              <span class="contacts-list-name">
-                                John K.
-                                <small class="contacts-list-date float-right">1/27/2015</small>
-                              </span>
-                                                            <span class="contacts-list-msg">Can I take a look at...</span>
+                                                        <div
+                                                            class="contacts-list-info"
+                                                        >
+                                                            <span
+                                                                class="contacts-list-name"
+                                                            >
+                                                                John K.
+                                                                <small
+                                                                    class="contacts-list-date float-right"
+                                                                    >1/27/2015</small
+                                                                >
+                                                            </span>
+                                                            <span
+                                                                class="contacts-list-msg"
+                                                                >Can I take a
+                                                                look at...</span
+                                                            >
                                                         </div>
                                                         <!-- /.contacts-list-info -->
                                                     </a>
@@ -383,14 +629,29 @@
                                                 <!-- End Contact Item -->
                                                 <li>
                                                     <a href="#">
-                                                        <img class="contacts-list-img" src="../../../../storage/app/public/images/user8-128x128.jpg" alt="User Avatar">
+                                                        <img
+                                                            class="contacts-list-img"
+                                                            src="../../../../storage/app/public/images/user8-128x128.jpg"
+                                                            alt="User Avatar"
+                                                        />
 
-                                                        <div class="contacts-list-info">
-                              <span class="contacts-list-name">
-                                Kenneth M.
-                                <small class="contacts-list-date float-right">1/4/2015</small>
-                              </span>
-                                                            <span class="contacts-list-msg">Never mind I found...</span>
+                                                        <div
+                                                            class="contacts-list-info"
+                                                        >
+                                                            <span
+                                                                class="contacts-list-name"
+                                                            >
+                                                                Kenneth M.
+                                                                <small
+                                                                    class="contacts-list-date float-right"
+                                                                    >1/4/2015</small
+                                                                >
+                                                            </span>
+                                                            <span
+                                                                class="contacts-list-msg"
+                                                                >Never mind I
+                                                                found...</span
+                                                            >
                                                         </div>
                                                         <!-- /.contacts-list-info -->
                                                     </a>
@@ -405,10 +666,22 @@
                                     <div class="card-footer">
                                         <form action="#" method="post">
                                             <div class="input-group">
-                                                <input type="text" name="message" placeholder="Type Message ..." class="form-control">
-                                                <span class="input-group-append">
-                          <button type="button" class="btn btn-warning">Send</button>
-                        </span>
+                                                <input
+                                                    type="text"
+                                                    name="message"
+                                                    placeholder="Type Message ..."
+                                                    class="form-control"
+                                                />
+                                                <span
+                                                    class="input-group-append"
+                                                >
+                                                    <button
+                                                        type="button"
+                                                        class="btn btn-warning"
+                                                    >
+                                                        Send
+                                                    </button>
+                                                </span>
                                             </div>
                                         </form>
                                     </div>
@@ -422,14 +695,26 @@
                                 <!-- USERS LIST -->
                                 <div class="card">
                                     <div class="card-header">
-                                        <h3 class="card-title">Latest Members</h3>
+                                        <h3 class="card-title">
+                                            Latest Members
+                                        </h3>
 
                                         <div class="card-tools">
-                                            <span class="badge badge-danger">8 New Members</span>
-                                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                            <span class="badge badge-danger"
+                                                >8 New Members</span
+                                            >
+                                            <button
+                                                type="button"
+                                                class="btn btn-tool"
+                                                data-card-widget="collapse"
+                                            >
                                                 <i class="fas fa-minus"></i>
                                             </button>
-                                            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                            <button
+                                                type="button"
+                                                class="btn btn-tool"
+                                                data-card-widget="remove"
+                                            >
                                                 <i class="fas fa-times"></i>
                                             </button>
                                         </div>
@@ -438,44 +723,116 @@
                                     <div class="card-body p-0">
                                         <ul class="users-list clearfix">
                                             <li>
-                                                <img src="../../../../storage/app/public/images/user1-128x128.jpg" alt="User Image">
-                                                <a class="users-list-name" href="#">Alexander Pierce</a>
-                                                <span class="users-list-date">Today</span>
+                                                <img
+                                                    src="../../../../storage/app/public/images/user1-128x128.jpg"
+                                                    alt="User Image"
+                                                />
+                                                <a
+                                                    class="users-list-name"
+                                                    href="#"
+                                                    >Alexander Pierce</a
+                                                >
+                                                <span class="users-list-date"
+                                                    >Today</span
+                                                >
                                             </li>
                                             <li>
-                                                <img src="../../../../storage/app/public/images/user8-128x128.jpg" alt="User Image">
-                                                <a class="users-list-name" href="#">Norman</a>
-                                                <span class="users-list-date">Yesterday</span>
+                                                <img
+                                                    src="../../../../storage/app/public/images/user8-128x128.jpg"
+                                                    alt="User Image"
+                                                />
+                                                <a
+                                                    class="users-list-name"
+                                                    href="#"
+                                                    >Norman</a
+                                                >
+                                                <span class="users-list-date"
+                                                    >Yesterday</span
+                                                >
                                             </li>
                                             <li>
-                                                <img src="../../../../storage/app/public/images/user7-128x128.jpg" alt="User Image">
-                                                <a class="users-list-name" href="#">Jane</a>
-                                                <span class="users-list-date">12 Jan</span>
+                                                <img
+                                                    src="../../../../storage/app/public/images/user7-128x128.jpg"
+                                                    alt="User Image"
+                                                />
+                                                <a
+                                                    class="users-list-name"
+                                                    href="#"
+                                                    >Jane</a
+                                                >
+                                                <span class="users-list-date"
+                                                    >12 Jan</span
+                                                >
                                             </li>
                                             <li>
-                                                <img src="../../../../storage/app/public/images/user6-128x128.jpg" alt="User Image">
-                                                <a class="users-list-name" href="#">John</a>
-                                                <span class="users-list-date">12 Jan</span>
+                                                <img
+                                                    src="../../../../storage/app/public/images/user6-128x128.jpg"
+                                                    alt="User Image"
+                                                />
+                                                <a
+                                                    class="users-list-name"
+                                                    href="#"
+                                                    >John</a
+                                                >
+                                                <span class="users-list-date"
+                                                    >12 Jan</span
+                                                >
                                             </li>
                                             <li>
-                                                <img src="../../../../storage/app/public/images/user2-160x160.jpg" alt="User Image">
-                                                <a class="users-list-name" href="#">Alexander</a>
-                                                <span class="users-list-date">13 Jan</span>
+                                                <img
+                                                    src="../../../../storage/app/public/images/user2-160x160.jpg"
+                                                    alt="User Image"
+                                                />
+                                                <a
+                                                    class="users-list-name"
+                                                    href="#"
+                                                    >Alexander</a
+                                                >
+                                                <span class="users-list-date"
+                                                    >13 Jan</span
+                                                >
                                             </li>
                                             <li>
-                                                <img src="../../../../storage/app/public/images/user5-128x128.jpg" alt="User Image">
-                                                <a class="users-list-name" href="#">Sarah</a>
-                                                <span class="users-list-date">14 Jan</span>
+                                                <img
+                                                    src="../../../../storage/app/public/images/user5-128x128.jpg"
+                                                    alt="User Image"
+                                                />
+                                                <a
+                                                    class="users-list-name"
+                                                    href="#"
+                                                    >Sarah</a
+                                                >
+                                                <span class="users-list-date"
+                                                    >14 Jan</span
+                                                >
                                             </li>
                                             <li>
-                                                <img src="../../../../storage/app/public/images/user4-128x128.jpg" alt="User Image">
-                                                <a class="users-list-name" href="#">Nora</a>
-                                                <span class="users-list-date">15 Jan</span>
+                                                <img
+                                                    src="../../../../storage/app/public/images/user4-128x128.jpg"
+                                                    alt="User Image"
+                                                />
+                                                <a
+                                                    class="users-list-name"
+                                                    href="#"
+                                                    >Nora</a
+                                                >
+                                                <span class="users-list-date"
+                                                    >15 Jan</span
+                                                >
                                             </li>
                                             <li>
-                                                <img src="../../../../storage/app/public/images/user3-128x128.jpg" alt="User Image">
-                                                <a class="users-list-name" href="#">Nadia</a>
-                                                <span class="users-list-date">15 Jan</span>
+                                                <img
+                                                    src="../../../../storage/app/public/images/user3-128x128.jpg"
+                                                    alt="User Image"
+                                                />
+                                                <a
+                                                    class="users-list-name"
+                                                    href="#"
+                                                    >Nadia</a
+                                                >
+                                                <span class="users-list-date"
+                                                    >15 Jan</span
+                                                >
                                             </li>
                                         </ul>
                                         <!-- /.users-list -->
@@ -498,10 +855,18 @@
                                 <h3 class="card-title">Latest Orders</h3>
 
                                 <div class="card-tools">
-                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <button
+                                        type="button"
+                                        class="btn btn-tool"
+                                        data-card-widget="collapse"
+                                    >
                                         <i class="fas fa-minus"></i>
                                     </button>
-                                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <button
+                                        type="button"
+                                        class="btn btn-tool"
+                                        data-card-widget="remove"
+                                    >
                                         <i class="fas fa-times"></i>
                                     </button>
                                 </div>
@@ -511,70 +876,182 @@
                                 <div class="table-responsive">
                                     <table class="table m-0">
                                         <thead>
-                                        <tr>
-                                            <th>Order ID</th>
-                                            <th>Item</th>
-                                            <th>Status</th>
-                                            <th>Popularity</th>
-                                        </tr>
+                                            <tr>
+                                                <th>Order ID</th>
+                                                <th>Item</th>
+                                                <th>Status</th>
+                                                <th>Popularity</th>
+                                            </tr>
                                         </thead>
                                         <tbody>
-                                        <tr>
-                                            <td><a href="pages/examples/invoice.html">OR9842</a></td>
-                                            <td>Call of Duty IV</td>
-                                            <td><span class="badge badge-success">Shipped</span></td>
-                                            <td>
-                                                <div class="sparkbar" data-color="#00a65a" data-height="20">90,80,90,-70,61,-83,63</div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="pages/examples/invoice.html">OR1848</a></td>
-                                            <td>Samsung Smart TV</td>
-                                            <td><span class="badge badge-warning">Pending</span></td>
-                                            <td>
-                                                <div class="sparkbar" data-color="#f39c12" data-height="20">90,80,-90,70,61,-83,68</div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="pages/examples/invoice.html">OR7429</a></td>
-                                            <td>iPhone 6 Plus</td>
-                                            <td><span class="badge badge-danger">Delivered</span></td>
-                                            <td>
-                                                <div class="sparkbar" data-color="#f56954" data-height="20">90,-80,90,70,-61,83,63</div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="pages/examples/invoice.html">OR7429</a></td>
-                                            <td>Samsung Smart TV</td>
-                                            <td><span class="badge badge-info">Processing</span></td>
-                                            <td>
-                                                <div class="sparkbar" data-color="#00c0ef" data-height="20">90,80,-90,70,-61,83,63</div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="pages/examples/invoice.html">OR1848</a></td>
-                                            <td>Samsung Smart TV</td>
-                                            <td><span class="badge badge-warning">Pending</span></td>
-                                            <td>
-                                                <div class="sparkbar" data-color="#f39c12" data-height="20">90,80,-90,70,61,-83,68</div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="pages/examples/invoice.html">OR7429</a></td>
-                                            <td>iPhone 6 Plus</td>
-                                            <td><span class="badge badge-danger">Delivered</span></td>
-                                            <td>
-                                                <div class="sparkbar" data-color="#f56954" data-height="20">90,-80,90,70,-61,83,63</div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="pages/examples/invoice.html">OR9842</a></td>
-                                            <td>Call of Duty IV</td>
-                                            <td><span class="badge badge-success">Shipped</span></td>
-                                            <td>
-                                                <div class="sparkbar" data-color="#00a65a" data-height="20">90,80,90,-70,61,-83,63</div>
-                                            </td>
-                                        </tr>
+                                            <tr>
+                                                <td>
+                                                    <a
+                                                        href="pages/examples/invoice.html"
+                                                        >OR9842</a
+                                                    >
+                                                </td>
+                                                <td>Call of Duty IV</td>
+                                                <td>
+                                                    <span
+                                                        class="badge badge-success"
+                                                        >Shipped</span
+                                                    >
+                                                </td>
+                                                <td>
+                                                    <div
+                                                        class="sparkbar"
+                                                        data-color="#00a65a"
+                                                        data-height="20"
+                                                    >
+                                                        90,80,90,-70,61,-83,63
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a
+                                                        href="pages/examples/invoice.html"
+                                                        >OR1848</a
+                                                    >
+                                                </td>
+                                                <td>Samsung Smart TV</td>
+                                                <td>
+                                                    <span
+                                                        class="badge badge-warning"
+                                                        >Pending</span
+                                                    >
+                                                </td>
+                                                <td>
+                                                    <div
+                                                        class="sparkbar"
+                                                        data-color="#f39c12"
+                                                        data-height="20"
+                                                    >
+                                                        90,80,-90,70,61,-83,68
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a
+                                                        href="pages/examples/invoice.html"
+                                                        >OR7429</a
+                                                    >
+                                                </td>
+                                                <td>iPhone 6 Plus</td>
+                                                <td>
+                                                    <span
+                                                        class="badge badge-danger"
+                                                        >Delivered</span
+                                                    >
+                                                </td>
+                                                <td>
+                                                    <div
+                                                        class="sparkbar"
+                                                        data-color="#f56954"
+                                                        data-height="20"
+                                                    >
+                                                        90,-80,90,70,-61,83,63
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a
+                                                        href="pages/examples/invoice.html"
+                                                        >OR7429</a
+                                                    >
+                                                </td>
+                                                <td>Samsung Smart TV</td>
+                                                <td>
+                                                    <span
+                                                        class="badge badge-info"
+                                                        >Processing</span
+                                                    >
+                                                </td>
+                                                <td>
+                                                    <div
+                                                        class="sparkbar"
+                                                        data-color="#00c0ef"
+                                                        data-height="20"
+                                                    >
+                                                        90,80,-90,70,-61,83,63
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a
+                                                        href="pages/examples/invoice.html"
+                                                        >OR1848</a
+                                                    >
+                                                </td>
+                                                <td>Samsung Smart TV</td>
+                                                <td>
+                                                    <span
+                                                        class="badge badge-warning"
+                                                        >Pending</span
+                                                    >
+                                                </td>
+                                                <td>
+                                                    <div
+                                                        class="sparkbar"
+                                                        data-color="#f39c12"
+                                                        data-height="20"
+                                                    >
+                                                        90,80,-90,70,61,-83,68
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a
+                                                        href="pages/examples/invoice.html"
+                                                        >OR7429</a
+                                                    >
+                                                </td>
+                                                <td>iPhone 6 Plus</td>
+                                                <td>
+                                                    <span
+                                                        class="badge badge-danger"
+                                                        >Delivered</span
+                                                    >
+                                                </td>
+                                                <td>
+                                                    <div
+                                                        class="sparkbar"
+                                                        data-color="#f56954"
+                                                        data-height="20"
+                                                    >
+                                                        90,-80,90,70,-61,83,63
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a
+                                                        href="pages/examples/invoice.html"
+                                                        >OR9842</a
+                                                    >
+                                                </td>
+                                                <td>Call of Duty IV</td>
+                                                <td>
+                                                    <span
+                                                        class="badge badge-success"
+                                                        >Shipped</span
+                                                    >
+                                                </td>
+                                                <td>
+                                                    <div
+                                                        class="sparkbar"
+                                                        data-color="#00a65a"
+                                                        data-height="20"
+                                                    >
+                                                        90,80,90,-70,61,-83,63
+                                                    </div>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -582,8 +1059,16 @@
                             </div>
                             <!-- /.card-body -->
                             <div class="card-footer clearfix">
-                                <a href="javascript:void(0)" class="btn btn-sm btn-info float-left">Place New Order</a>
-                                <a href="javascript:void(0)" class="btn btn-sm btn-secondary float-right">View All Orders</a>
+                                <a
+                                    href="javascript:void(0)"
+                                    class="btn btn-sm btn-info float-left"
+                                    >Place New Order</a
+                                >
+                                <a
+                                    href="javascript:void(0)"
+                                    class="btn btn-sm btn-secondary float-right"
+                                    >View All Orders</a
+                                >
                             </div>
                             <!-- /.card-footer -->
                         </div>
@@ -594,7 +1079,9 @@
                     <div class="col-md-4">
                         <!-- Info Boxes Style 2 -->
                         <div class="info-box mb-3 bg-warning">
-                            <span class="info-box-icon"><i class="fas fa-tag"></i></span>
+                            <span class="info-box-icon"
+                                ><i class="fas fa-tag"></i
+                            ></span>
 
                             <div class="info-box-content">
                                 <span class="info-box-text">Inventory</span>
@@ -604,7 +1091,9 @@
                         </div>
                         <!-- /.info-box -->
                         <div class="info-box mb-3 bg-success">
-                            <span class="info-box-icon"><i class="far fa-heart"></i></span>
+                            <span class="info-box-icon"
+                                ><i class="far fa-heart"></i
+                            ></span>
 
                             <div class="info-box-content">
                                 <span class="info-box-text">Mentions</span>
@@ -614,7 +1103,9 @@
                         </div>
                         <!-- /.info-box -->
                         <div class="info-box mb-3 bg-danger">
-                            <span class="info-box-icon"><i class="fas fa-cloud-download-alt"></i></span>
+                            <span class="info-box-icon"
+                                ><i class="fas fa-cloud-download-alt"></i
+                            ></span>
 
                             <div class="info-box-content">
                                 <span class="info-box-text">Downloads</span>
@@ -624,10 +1115,14 @@
                         </div>
                         <!-- /.info-box -->
                         <div class="info-box mb-3 bg-info">
-                            <span class="info-box-icon"><i class="far fa-comment"></i></span>
+                            <span class="info-box-icon"
+                                ><i class="far fa-comment"></i
+                            ></span>
 
                             <div class="info-box-content">
-                                <span class="info-box-text">Direct Messages</span>
+                                <span class="info-box-text"
+                                    >Direct Messages</span
+                                >
                                 <span class="info-box-number">163,921</span>
                             </div>
                             <!-- /.info-box-content -->
@@ -639,10 +1134,18 @@
                                 <h3 class="card-title">Browser Usage</h3>
 
                                 <div class="card-tools">
-                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <button
+                                        type="button"
+                                        class="btn btn-tool"
+                                        data-card-widget="collapse"
+                                    >
                                         <i class="fas fa-minus"></i>
                                     </button>
-                                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <button
+                                        type="button"
+                                        class="btn btn-tool"
+                                        data-card-widget="remove"
+                                    >
                                         <i class="fas fa-times"></i>
                                     </button>
                                 </div>
@@ -652,19 +1155,52 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="chart-responsive">
-                                            <canvas id="pieChart" height="150"></canvas>
+                                            <canvas
+                                                id="pieChart"
+                                                height="150"
+                                            ></canvas>
                                         </div>
                                         <!-- ./chart-responsive -->
                                     </div>
                                     <!-- /.col -->
                                     <div class="col-md-4">
                                         <ul class="chart-legend clearfix">
-                                            <li><i class="far fa-circle text-danger"></i> Chrome</li>
-                                            <li><i class="far fa-circle text-success"></i> IE</li>
-                                            <li><i class="far fa-circle text-warning"></i> FireFox</li>
-                                            <li><i class="far fa-circle text-info"></i> Safari</li>
-                                            <li><i class="far fa-circle text-primary"></i> Opera</li>
-                                            <li><i class="far fa-circle text-secondary"></i> Navigator</li>
+                                            <li>
+                                                <i
+                                                    class="far fa-circle text-danger"
+                                                ></i>
+                                                Chrome
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="far fa-circle text-success"
+                                                ></i>
+                                                IE
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="far fa-circle text-warning"
+                                                ></i>
+                                                FireFox
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="far fa-circle text-info"
+                                                ></i>
+                                                Safari
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="far fa-circle text-primary"
+                                                ></i>
+                                                Opera
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="far fa-circle text-secondary"
+                                                ></i>
+                                                Navigator
+                                            </li>
                                         </ul>
                                     </div>
                                     <!-- /.col -->
@@ -677,25 +1213,40 @@
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">
                                             United States of America
-                                            <span class="float-right text-danger">
-                        <i class="fas fa-arrow-down text-sm"></i>
-                        12%</span>
+                                            <span
+                                                class="float-right text-danger"
+                                            >
+                                                <i
+                                                    class="fas fa-arrow-down text-sm"
+                                                ></i>
+                                                12%</span
+                                            >
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">
                                             India
-                                            <span class="float-right text-success">
-                        <i class="fas fa-arrow-up text-sm"></i> 4%
-                      </span>
+                                            <span
+                                                class="float-right text-success"
+                                            >
+                                                <i
+                                                    class="fas fa-arrow-up text-sm"
+                                                ></i>
+                                                4%
+                                            </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">
                                             China
-                                            <span class="float-right text-warning">
-                        <i class="fas fa-arrow-left text-sm"></i> 0%
-                      </span>
+                                            <span
+                                                class="float-right text-warning"
+                                            >
+                                                <i
+                                                    class="fas fa-arrow-left text-sm"
+                                                ></i>
+                                                0%
+                                            </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -707,72 +1258,131 @@
                         <!-- PRODUCT LIST -->
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="card-title">Recently Added Products</h3>
+                                <h3 class="card-title">
+                                    Recently Added Products
+                                </h3>
 
                                 <div class="card-tools">
-                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <button
+                                        type="button"
+                                        class="btn btn-tool"
+                                        data-card-widget="collapse"
+                                    >
                                         <i class="fas fa-minus"></i>
                                     </button>
-                                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <button
+                                        type="button"
+                                        class="btn btn-tool"
+                                        data-card-widget="remove"
+                                    >
                                         <i class="fas fa-times"></i>
                                     </button>
                                 </div>
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body p-0">
-                                <ul class="products-list product-list-in-card pl-2 pr-2">
+                                <ul
+                                    class="products-list product-list-in-card pl-2 pr-2"
+                                >
                                     <li class="item">
                                         <div class="product-img">
-                                            <img src="../../../../storage/app/public/images/default-150x150.png" alt="Product Image" class="img-size-50">
+                                            <img
+                                                src="../../../../storage/app/public/images/default-150x150.png"
+                                                alt="Product Image"
+                                                class="img-size-50"
+                                            />
                                         </div>
                                         <div class="product-info">
-                                            <a href="javascript:void(0)" class="product-title">Samsung TV
-                                                <span class="badge badge-warning float-right">$1800</span></a>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="product-title"
+                                                >Samsung TV
+                                                <span
+                                                    class="badge badge-warning float-right"
+                                                    >$1800</span
+                                                ></a
+                                            >
                                             <span class="product-description">
-                        Samsung 32" 1080p 60Hz LED Smart HDTV.
-                      </span>
+                                                Samsung 32" 1080p 60Hz LED Smart
+                                                HDTV.
+                                            </span>
                                         </div>
                                     </li>
                                     <!-- /.item -->
                                     <li class="item">
                                         <div class="product-img">
-                                            <img src="../../../../storage/app/public/images/default-150x150.png" alt="Product Image" class="img-size-50">
+                                            <img
+                                                src="../../../../storage/app/public/images/default-150x150.png"
+                                                alt="Product Image"
+                                                class="img-size-50"
+                                            />
                                         </div>
                                         <div class="product-info">
-                                            <a href="javascript:void(0)" class="product-title">Bicycle
-                                                <span class="badge badge-info float-right">$700</span></a>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="product-title"
+                                                >Bicycle
+                                                <span
+                                                    class="badge badge-info float-right"
+                                                    >$700</span
+                                                ></a
+                                            >
                                             <span class="product-description">
-                        26" Mongoose Dolomite Men's 7-speed, Navy Blue.
-                      </span>
+                                                26" Mongoose Dolomite Men's
+                                                7-speed, Navy Blue.
+                                            </span>
                                         </div>
                                     </li>
                                     <!-- /.item -->
                                     <li class="item">
                                         <div class="product-img">
-                                            <img src="../../../../storage/app/public/images/default-150x150.png" alt="Product Image" class="img-size-50">
+                                            <img
+                                                src="../../../../storage/app/public/images/default-150x150.png"
+                                                alt="Product Image"
+                                                class="img-size-50"
+                                            />
                                         </div>
                                         <div class="product-info">
-                                            <a href="javascript:void(0)" class="product-title">
-                                                Xbox One <span class="badge badge-danger float-right">
-                        $350
-                      </span>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="product-title"
+                                            >
+                                                Xbox One
+                                                <span
+                                                    class="badge badge-danger float-right"
+                                                >
+                                                    $350
+                                                </span>
                                             </a>
                                             <span class="product-description">
-                        Xbox One Console Bundle with Halo Master Chief Collection.
-                      </span>
+                                                Xbox One Console Bundle with
+                                                Halo Master Chief Collection.
+                                            </span>
                                         </div>
                                     </li>
                                     <!-- /.item -->
                                     <li class="item">
                                         <div class="product-img">
-                                            <img src="../../../../storage/app/public/images/default-150x150.png" alt="Product Image" class="img-size-50">
+                                            <img
+                                                src="../../../../storage/app/public/images/default-150x150.png"
+                                                alt="Product Image"
+                                                class="img-size-50"
+                                            />
                                         </div>
                                         <div class="product-info">
-                                            <a href="javascript:void(0)" class="product-title">PlayStation 4
-                                                <span class="badge badge-success float-right">$399</span></a>
+                                            <a
+                                                href="javascript:void(0)"
+                                                class="product-title"
+                                                >PlayStation 4
+                                                <span
+                                                    class="badge badge-success float-right"
+                                                    >$399</span
+                                                ></a
+                                            >
                                             <span class="product-description">
-                        PlayStation 4 500GB Console (PS4)
-                      </span>
+                                                PlayStation 4 500GB Console
+                                                (PS4)
+                                            </span>
                                         </div>
                                     </li>
                                     <!-- /.item -->
@@ -780,7 +1390,9 @@
                             </div>
                             <!-- /.card-body -->
                             <div class="card-footer text-center">
-                                <a href="javascript:void(0)" class="uppercase">View All Products</a>
+                                <a href="javascript:void(0)" class="uppercase"
+                                    >View All Products</a
+                                >
                             </div>
                             <!-- /.card-footer -->
                         </div>
@@ -789,98 +1401,129 @@
                     <!-- /.col -->
                 </div>
                 <!-- /.row -->
-            </div><!--/. container-fluid -->
+            </div>
+            <!--/. container-fluid -->
         </section>
     </admin-layout>
 </template>
 
 <script>
-import AdminLayout from '@/Layouts/AdminLayout'
+import AdminLayout from "@/Layouts/AdminLayout";
 export default {
     name: "Dashboard",
     components: {
-        AdminLayout
+        AdminLayout,
     },
-    // mounted() {
-    //     this.salesChart()
-    //     this.pieChart()
-    // },
-    // methods: {
-    //     salesChart() {
-    //         let ctx = document.getElementById('salesChart').getContext('2d')
-    //         let salesChartData = {
-    //             datasets: [{
-    //                 label               : 'Digital Goods',
-    //                 backgroundColor     : 'rgba(60,141,188,0.9)',
-    //                 borderColor         : 'rgba(60,141,188,0.8)',
-    //                 pointRadius          : false,
-    //                 pointColor          : '#3b8bba',
-    //                 pointStrokeColor    : 'rgba(60,141,188,1)',
-    //                 pointHighlightFill  : '#fff',
-    //                 pointHighlightStroke: 'rgba(60,141,188,1)',
-    //                 data                : [28, 48, 40, 19, 86, 27, 90]
-    //             }, {
-    //                 label               : 'Electronics',
-    //                 backgroundColor     : 'rgba(210, 214, 222, 1)',
-    //                 borderColor         : 'rgba(210, 214, 222, 1)',
-    //                 pointRadius         : false,
-    //                 pointColor          : 'rgba(210, 214, 222, 1)',
-    //                 pointStrokeColor    : '#c1c7d1',
-    //                 pointHighlightFill  : '#fff',
-    //                 pointHighlightStroke: 'rgba(220,220,220,1)',
-    //                 data                : [65, 59, 80, 81, 56, 55, 40]
-    //             }],
-    //             labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-    //         }
-    //         let salesChartOptions = {
-    //             maintainAspectRatio : false,
-    //             responsive : true,
-    //             legend: {
-    //                 display: false
-    //             },
-    //             scales: {
-    //                 xAxes: [{
-    //                     gridLines : {
-    //                         display : false,
-    //                     }
-    //                 }],
-    //                 yAxes: [{
-    //                     gridLines : {
-    //                         display : false,
-    //                     }
-    //                 }]
-    //             }
-    //         }
-    //         new Chart(ctx, {
-    //             type: 'line',
-    //             data: salesChartData,
-    //             options: salesChartOptions
-    //         })
-    //     },
-    //     pieChart() {
-    //         let ctx = document.getElementById('pieChart').getContext('2d')
-    //         let pieChartData = {
-    //             datasets: [{
-    //                 data: [700, 500, 400, 600, 300, 100],
-    //                 backgroundColor: ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de']
-    //             }],
-    //             labels: [ 'Chrome', 'IE', 'FireFox', 'Safari', 'Opera', 'Navigator'],
-    //         }
-    //         let pieChartOptions = {
-    //             legend: {
-    //                 display: false
-    //             }
-    //         }
-    //         new Chart(ctx, {
-    //             type: 'doughnut',
-    //             data: pieChartData,
-    //             options: pieChartOptions
-    //         })
-    //     }
-    // }
-}
+
+    mounted() {
+        this.salesChart();
+        this.pieChart();
+    },
+    methods: {
+        salesChart() {
+            let ctx = document.getElementById("salesChart").getContext("2d");
+            let salesChartData = {
+                datasets: [
+                    {
+                        label: "Digital Goods",
+                        backgroundColor: "rgba(60,141,188,0.9)",
+                        borderColor: "rgba(60,141,188,0.8)",
+                        pointRadius: false,
+                        pointColor: "#3b8bba",
+                        pointStrokeColor: "rgba(60,141,188,1)",
+                        pointHighlightFill: "#fff",
+                        pointHighlightStroke: "rgba(60,141,188,1)",
+                        data: [28, 48, 40, 19, 86, 27, 90],
+                    },
+                    {
+                        label: "Electronics",
+                        backgroundColor: "rgba(210, 214, 222, 1)",
+                        borderColor: "rgba(210, 214, 222, 1)",
+                        pointRadius: false,
+                        pointColor: "rgba(210, 214, 222, 1)",
+                        pointStrokeColor: "#c1c7d1",
+                        pointHighlightFill: "#fff",
+                        pointHighlightStroke: "rgba(220,220,220,1)",
+                        data: [65, 59, 80, 81, 56, 55, 40],
+                    },
+                ],
+                labels: [
+                    "January",
+                    "February",
+                    "March",
+                    "April",
+                    "May",
+                    "June",
+                    "July",
+                ],
+            };
+            let salesChartOptions = {
+                maintainAspectRatio: false,
+                responsive: true,
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    xAxes: [
+                        {
+                            gridLines: {
+                                display: false,
+                            },
+                        },
+                    ],
+                    yAxes: [
+                        {
+                            gridLines: {
+                                display: false,
+                            },
+                        },
+                    ],
+                },
+            };
+            new Chart(ctx, {
+                type: "line",
+                data: salesChartData,
+                options: salesChartOptions,
+            });
+        },
+        pieChart() {
+            let ctx = document.getElementById("pieChart").getContext("2d");
+            let pieChartData = {
+                datasets: [
+                    {
+                        data: [700, 500, 400, 600, 300, 100],
+                        backgroundColor: [
+                            "#f56954",
+                            "#00a65a",
+                            "#f39c12",
+                            "#00c0ef",
+                            "#3c8dbc",
+                            "#d2d6de",
+                        ],
+                    },
+                ],
+                labels: [
+                    "Chrome",
+                    "IE",
+                    "FireFox",
+                    "Safari",
+                    "Opera",
+                    "Navigator",
+                ],
+            };
+            let pieChartOptions = {
+                legend: {
+                    display: false,
+                },
+            };
+            new Chart(ctx, {
+                type: "doughnut",
+                data: pieChartData,
+                options: pieChartOptions,
+            });
+        },
+    },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
